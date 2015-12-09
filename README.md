@@ -14,6 +14,6 @@ From its original version, GenoSim maintains general functionallity (and routine
   - v) the number of markers can reach densities approaching full sequence.
 
 
-**Full documentation (including how to install and run the program) can be found [(here)](Manual/GenoSim_software.pdf)
+**Full documentation (including how to install and run the program) can be found [here](Manual/GenoSim_software.pdf)
 
-For bug report, feedback and questions (PLEASE read carefully the Wiki pages before sending your questions!) contact ezequiel [dot] nicolazzi [at] ptp [dot] it.
+For bug report, feedback and questions contact ezequiel [dot] nicolazzi [at] ptp [dot] it.
