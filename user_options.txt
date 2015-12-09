@@ -1,0 +1,33 @@
+User options for the genomic simulation program are collected in this text file.
+For the time being, user friendliness is does not have a high priority!!
+I am keeping the first 10 lines for comments.
+All values are going to be read from column 1 (to 10) and treated as INTEGER.
+Let the "option" descriptions start at column 11.
+
+
+
+
+#####     MAKE SURE THIS IS LINE 10     #####
+800                Number of   males in the base population
+800                Number of females in the base population
+75,150             Number of   males in breed step
+75,150             Number of females in breed step
+29                  Number of chromosomes
+1000               Number of linkage groups
+50000              Number of generations for base data
+30                 Number of generations for breed data (if not pedigree)
+1                  Number of (expected) recombinations per chromosome
+4                  -log(10) of the mutation rate for SNPs
+4,0.3              (HIGH,LOW) Proportion of (total) SNPs assigned to be QTL.
+0.1,0.25,0.4       (3) heritabilities of the simulated traits.
+0.5,-1             (2) Gcorr of traits ( A-->B, A-->C). Gcorr B-->C = 0
+2                  Write genotypes: 1 for haplotypes, 2 for genotypes, any other number for no.
+30                 # of (last) breed generations to be written (for non pedigree pops)
+0                  # of (last) animals to be written (for pedigree pops - Use "0" if you want them all)
+2                  Number of breeds to be analyzed 
+H1_A,H1_C          Type of selection for each (NONPEDIGREE) breed ([H/L][1/2/3]_[A/B/C] for Nqtl>Me(H) or Nqtl<Me(L), 1/2/3 h2 and trait group A/B/C (or X/Y/Z).
+30,30,100,100    Proportions of males (Nbreed) and females (Nbreed)
+2                  Number of populations with real pedigree (add namefiles in the lines below (as many as populations)!)
+pedigree_bruSEXGEN.txt,pedigree_priSEXGEN.txt  Name of pedigree (if more than 1 pop, please separate name files with commas)
+1                  Distribution of QTL effects (1 for ~N, 2 for ~gamma). If gamma add a line with SHAPE param
+0.4                Shape for gamma (if Distribution==2)
